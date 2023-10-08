@@ -2,7 +2,6 @@
 
 PKGS=(
     'nnn'
-    'fish'
     'neovim'
     'gh'
 )
