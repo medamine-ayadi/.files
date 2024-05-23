@@ -21,6 +21,11 @@ PKGS=(
     'brightnessctl'
     'imv'
     'stow'
+    'zathura'
+    'zathura-djvu'
+    'zathura-pdf-poppler'
+    'zathura-ps'
+    'zathura-cb'
     #'/tmp/mercury-browser_123.0.1_SSE4.deb'
     #'/tmp/mercury-browser_123.0.1_AVX2.deb'
 )
