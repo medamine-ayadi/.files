@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-wget https://github.com/Alex313031/Mercury/releases/download/v.123.0.1/mercury-browser_123.0.1_SSE4.deb -P /tmp/
+#wget https://github.com/Alex313031/Mercury/releases/download/v.123.0.1/mercury-browser_123.0.1_SSE4.deb -P /tmp/
+#wget https://github.com/Alex313031/Mercury/releases/download/v.123.0.1/mercury-browser_123.0.1_AVX2.deb -P /tmp
 PKGS=(
     'neovim'
     'git'
@@ -20,7 +21,8 @@ PKGS=(
     'brightnessctl'
     'imv'
     'stow'
-    '/tmp/mercury-browser_123.0.1_SSE4.deb'
+    #'/tmp/mercury-browser_123.0.1_SSE4.deb'
+    #'/tmp/mercury-browser_123.0.1_AVX2.deb'
 )
 
 for PKG in "${PKGS[@]}"; do
@@ -36,6 +38,7 @@ CONFIGS=(
     'sway'
     'wofi'
     'nvim'
+    'bash'
 )
 for CONFIG in "${CONFIGS[@]}"; do
     echo "STOWING: ${CONFIG}"
