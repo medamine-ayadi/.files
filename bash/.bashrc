@@ -35,3 +35,5 @@ if ! shopt -oq posix; then
 fi
 source ~/.scripts/fzf-bash-completion.sh
 bind -x '"\t": fzf_bash_completion'
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
